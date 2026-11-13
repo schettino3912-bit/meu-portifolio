@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 parte</title>
+    <link rel="stylesheet" href="padaria.css">
+</head>
+<body>
+      <header class="fixo">
+    <h2 class="começou">
+       Faça o seu pedido!
+    </h2>
+</header> 
+         
+
+<main class="formulario-pedido">
+      
+       <form id="formpedido">
+        <h2>Dados do cliente</h2>
+        <label>Nome completo:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+      
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" placeholder="Digite o seu telefone" required>
+
+        <h2>Escolha seus produtos:</h2>
+      <thead>
+      <table>
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="Croissant">
+            Croissant-R$6,00
+          </label>
+          <input type="number" name="qtd_croissant"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+      <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="Pão de queijo">
+            Pão de queijo-R$3,50
+          </label>
+          <input type="number" name="qtd_pao"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="Bolo de chocolate">
+            Bolo de chocolate-R$7,00
+          </label>
+          <input type="number" name="qtd_bolo"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="sonho">
+            Sonho-R$4,50
+          </label>
+          <input type="number" name="qtd_sonho"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="misto">
+            Misto-R$4,00
+          </label>
+          <input type="number" name="qtd_misto"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="pao">
+            Pão-R$2,25
+          </label>
+          <input type="number" name="qtd_pao"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="café">
+            Café-R$4,50
+          </label>
+          <input type="number" name="qtd_cafe"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="cappuccino">
+            Café-R$4,90
+          </label>
+          <input type="number" name="qtd_cappuccino"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="suco">
+            Suco de laranja-R$4,75
+          </label>
+          <input type="number" name="qtd_suco"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+
+        <div class="item-pedido">
+          <label>
+            <input type="checkbox" name="produto" value="alfajor">
+            Alfajor-R$5,00
+          </label>
+          <input type="number" name="qtd_cafe"
+           min="1"
+          placeholder="Quantidade">
+        </div>
+        </table>
+       </thead>
+        
+
+
+        <h2>Endereço de entrega</h2>
+
+        <label>Rua e número:</label>
+        <input type="text" name="endereço" placeholder="Digite seu endereço" required>
+
+      <label>Bairro:</label>
+      <input type="text" name="bairro" placeholder="Digite seu bairro" required>
+
+      <label>Complemento:</label>
+      <input type="text" name="complemento" placeholder="Apartamento, casa, etc.">
+
+      <h2>Forma de pagamento</h2>
+      <div class="pagamento">
+        <label>
+          <input type="radio" name="pagamento" value="Pix">
+          Pix
+        </label>
+
+        <label>
+          <input type="radio" name="pagamento" value="dinheiro">
+          Dinheiro
+        </label>
+
+        <label>
+          <input type="radio" name="pagamento" value="cartão de débito">
+          Cartão de débito
+        </label>
+
+        <label>
+          <input type="radio" name="pagamento" value="cartão de crédito">
+          Cartão de crédito
+        </label>
+      </div>
+
+      <h2>Observações</h2>
+      <textarea name="observacoes" placeholder="Escreva alguma observação"></textarea><br><br><br>
+
+      <button type="submit" class="botao-finalizar">
+        Finalizar pedido
+      </button>
+      <br>
+       <br>
+       <br>
+      <a href="padaria.html" class="botão">
+      Cardápio
+      </a>
+      <br>
+       </form>
+</main>
+
+</body>
+</html>
